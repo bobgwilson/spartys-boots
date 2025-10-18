@@ -39,3 +39,43 @@
 
 # debug information files
 *.dwo
+*.dSYM/
+*.pdb
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# ---- Build directories ----
+build/
+build-*/
+bin/
+lib/
+
+# ---- wxWidgets (if built locally) ----
+wxWidgets-build/
+wxWidgets/
+*.vcxproj.user
+
+# ---- IDE-specific ----
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
